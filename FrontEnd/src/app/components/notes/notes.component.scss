@@ -1,0 +1,38 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5rem;
+}
+
+.update-btn {
+    margin-left: 4rem;
+   position: relative;
+   text-align: center;
+}
+
+.btn{
+display: flex;
+position: relative;
+margin-top: 3rem;
+}
+
+button {
+    height: 2rem;
+    width: 7rem;
+    background-color: #f1f1f1;
+    transition: 0.3s ease-in-out;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
